@@ -1,7 +1,0 @@
-com/brahalla/builder/model/base/AbstractModel.class
-com/brahalla/builder/App.class
-com/brahalla/builder/model/builder/RequestBuilder.class
-com/brahalla/builder/model/builder/base/AbstractModelBuilder.class
-com/brahalla/builder/model/builder/ResponseBuilder.class
-com/brahalla/builder/model/entity/Request.class
-com/brahalla/builder/model/entity/Response.class
