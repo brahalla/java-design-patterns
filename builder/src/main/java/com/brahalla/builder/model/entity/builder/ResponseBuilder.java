@@ -1,12 +1,12 @@
-package com.brahalla.builder.model.builder;
+package com.brahalla.builder.model.entity.builder;
 
-import com.brahalla.builder.model.builder.base.AbstractModelBuilder;
+import com.brahalla.builder.model.base.AbstractModelBuilder;
 import com.brahalla.builder.model.entity.Request;
 import com.brahalla.builder.model.entity.Response;
 
 import org.apache.commons.lang3.StringUtils;
 
-public class ResponseBuilder extends AbstractModelBuilder {
+public class ResponseBuilder implements AbstractModelBuilder {
 
   private String data;
 

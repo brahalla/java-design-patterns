@@ -1,7 +1,7 @@
 package com.brahalla.builder.model.entity;
 
 import com.brahalla.builder.model.base.AbstractModel;
-import com.brahalla.builder.model.builder.ResponseBuilder;
+import com.brahalla.builder.model.entity.builder.ResponseBuilder;
 
 public class Response extends AbstractModel {
 

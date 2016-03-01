@@ -1,7 +1,7 @@
 package com.brahalla.builder;
 
-import com.brahalla.builder.model.builder.RequestBuilder;
-import com.brahalla.builder.model.builder.ResponseBuilder;
+import com.brahalla.builder.model.entity.builder.RequestBuilder;
+import com.brahalla.builder.model.entity.builder.ResponseBuilder;
 import com.brahalla.builder.model.entity.Request;
 import com.brahalla.builder.model.entity.Response;
 
