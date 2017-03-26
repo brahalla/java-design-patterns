@@ -18,11 +18,13 @@
     <junit.version>4.12</junit.version>
     <jfixture.version>2.6.3</jfixture.version>
     <mockito.version>1.10.19</mockito.version>
-    <compiler.version>3.0</compiler.version>
+    <compiler-plugin.version>3.6.1</compiler-plugin.version>
+    <jar-plugin.version>3.0.2</jar-plugin.version>
   </properties>
 
   <modules>
     <module>builder</module>
+    <module>delegate</module>
   </modules>
 
   <dependencyManagement>
@@ -58,7 +60,12 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>${compiler.version}</version>
+        <version>${compiler-plugin.version}</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>${jar-plugin.version}</version>
       </plugin>
     </plugins>
   </build>
