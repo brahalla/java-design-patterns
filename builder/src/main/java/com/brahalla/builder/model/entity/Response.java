@@ -3,7 +3,7 @@ package com.brahalla.builder.model.entity;
 import com.brahalla.builder.model.base.AbstractModel;
 import com.brahalla.builder.model.base.AbstractModelBuilder;
 
-import org.apache.commons.lang3.StringUtils;
+import java.lang.StringBuilder;
 
 public class Response extends AbstractModel {
 
@@ -35,7 +35,7 @@ public class Response extends AbstractModel {
     }
 
     public Builder fromRequest(final Request request) {
-      this.data = StringUtils.reverse(request.getData());
+      this.data = new StringBuilder(request.getData()).reverse().toString();
       return this;
     }
 
