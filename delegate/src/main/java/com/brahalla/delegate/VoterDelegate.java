@@ -7,10 +7,22 @@ import java.util.List;
 
 public class VoterDelegate {
 
-  private List<Voter> voters = new LinkedList<Voter>();
+  private List<Voter> voters;
+
+  public VoterDelegate() {
+    this.voters = new LinkedList<Voter>();
+  }
+
+  public VoterDelegate(List<Voter> voters) {
+    this.voters = voters;
+  }
 
   public void addVoter(Voter voter, int position) throws IndexOutOfBoundsException {
     this.voters.add(position, voter);
+  }
+
+  public int getNumberOfVoters() {
+    return this.voters.size();
   }
 
   public Voter performVote() {
