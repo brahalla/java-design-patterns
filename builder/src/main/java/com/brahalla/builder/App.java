@@ -10,7 +10,8 @@ public class App {
     Request request = Request.Builder.create().withData("abc123").build();
     Response response = Response.Builder.create().fromRequest(request).build();
 
-    System.out.println(String.format("Request: %s, Response: %s", request, response));
+    System.out.println(String.format("Request: %s", request));
+    System.out.println(String.format("Response: %s", response));
 
   }
 
