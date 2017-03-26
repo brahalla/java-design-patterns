@@ -14,18 +14,20 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <compiler-plugin.version>3.6.1</compiler-plugin.version>
+    <jar-plugin.version>3.0.2</jar-plugin.version>
+    <shade-plugin.version>3.0.0</shade-plugin.version>
+
     <commons-lang3.version>3.5</commons-lang3.version>
     <junit.version>4.12</junit.version>
     <jfixture.version>2.6.3</jfixture.version>
     <mockito.version>2.7.19</mockito.version>
-    <compiler-plugin.version>3.6.1</compiler-plugin.version>
-    <jar-plugin.version>3.0.2</jar-plugin.version>
-    <shade-plugin.version>3.0.0</shade-plugin.version>
   </properties>
 
   <modules>
     <module>builder</module>
     <module>delegate</module>
+    <module>gateway</module>
   </modules>
 
   <dependencyManagement>
