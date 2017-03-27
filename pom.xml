@@ -28,6 +28,7 @@
     <module>builder</module>
     <module>delegate</module>
     <module>gateway</module>
+    <module>strategy</module>
   </modules>
 
   <dependencyManagement>
