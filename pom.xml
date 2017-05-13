@@ -29,6 +29,7 @@
     <module>delegate</module>
     <module>gateway</module>
     <module>strategy</module>
+    <module>threadpool</module>
   </modules>
 
   <dependencyManagement>
