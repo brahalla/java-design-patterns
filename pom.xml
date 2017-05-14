@@ -28,6 +28,7 @@
     <module>builder</module>
     <module>delegate</module>
     <module>gateway</module>
+    <module>reader-writer-lock</module>
     <module>strategy</module>
     <module>threadpool</module>
   </modules>
